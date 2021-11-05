@@ -1,0 +1,4 @@
+Want,istemek
+Home,ev
+Car,araba
+Like,beğenmek

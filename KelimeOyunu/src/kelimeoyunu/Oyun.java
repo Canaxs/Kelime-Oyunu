@@ -237,7 +237,7 @@ public class Oyun extends javax.swing.JFrame {
     DefaultTableModel model2 = (DefaultTableModel) yanlis.getModel();
     sayac++;
         int length = dosya.array2.length;
-        if(tr_kelime.getText().equals(dosya.array2[deger])) {
+        if(tr_kelime.getText().equalsIgnoreCase(dosya.array2[deger])) {
             point = point + 2;
             puan.setText("Puan : " + point);
             Object[] ekleme = {ing_kelime.getText(),tr_kelime.getText()};
